@@ -12,7 +12,11 @@
         <title>Document</title>
     </head>
     <body>
+<<<<<<< HEAD
         <h1><?php echo "Hola mundo otra vez "; ?> </h1>
+=======
+        <h1><?php echo "Hola mundo horrible - test branch"; ?> </h1>
+>>>>>>> 902bdf53af9db6be30894af5d6b83012cd30a41b
     </body>
 </html>
 
