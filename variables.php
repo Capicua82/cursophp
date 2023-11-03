@@ -18,10 +18,7 @@ $verdadero = false;
 # Null: Cuando a un avariable no se la ha asignado ningun valor
 
 echo 'Hola ' . $nombre;
-\n
-\n
+
 echo gettype($nombre);
-
-
 
 ?>
