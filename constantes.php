@@ -1,9 +1,9 @@
 <?php
 
 
-define ('PI', 3.1416)
+define('PI', 3.1416)
 
-echo Pi;
+echo PI;
 
 // $nombre = "carlos";
 // $nombre = "arturo";
@@ -11,4 +11,4 @@ echo Pi;
 
 
 
->?
+?>
