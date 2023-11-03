@@ -14,6 +14,8 @@
     <body>
 
         <h1> <?php echo "Hola mundo"; ?> </h1>
+        <br>
+        <h2> Nueva linea en hola mundo</h>
 
     </body>
 </html>
