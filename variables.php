@@ -1,7 +1,7 @@
 <?php
 
 # String: cadena de texto
-$nombre = "juam mora";
+$nombre = 'juan mora';
 
 # Integer: Numeros enteros
 $numero = 7;
@@ -9,13 +9,18 @@ $numero = 7;
 # Double: Numeros con decimales
 $numero_decimasl = 7.7;
 
-# Boleano: Verdadero o falso (true / false)
-$verdadero = fals;
+# Bolean: Verdadero o falso (true / false)
+$verdadero = false;
 
 # Array: Arreglo
-# Objeto
-# Nuell: Cuando a un avariable no se la ha asignado ningun valor
+# object: Objeto
+# Class: Clase
+# Null: Cuando a un avariable no se la ha asignado ningun valor
 
-echo 'Hola, ' . $nombre;
+echo 'Hola ' . $nombre;
+echo ("<br>");
+
+
+echo gettype($nombre);
 
 ?>

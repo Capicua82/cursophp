@@ -12,7 +12,13 @@
         <title>Document</title>
     </head>
     <body>
-        <h1><?php echo "Hola mundo otra vez"; ?> </h1>
+
+
+        <h1> <?php echo "Hola mundo"; ?> </h1>
+        <br>
+        <h2> Nueva linea en hola mundo</h>
+
+>>>>>>> 9fe83dbd736560b4661e3cbbd5235a4095129fc4
     </body>
 </html>
 
