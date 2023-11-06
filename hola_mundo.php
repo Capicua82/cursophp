@@ -18,7 +18,6 @@
         <br>
         <h2> Nueva linea en hola mundo</h>
 
->>>>>>> 9fe83dbd736560b4661e3cbbd5235a4095129fc4
-    </body>
+  </body>
 </html>
 
