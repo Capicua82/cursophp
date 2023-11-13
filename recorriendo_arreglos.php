@@ -2,9 +2,8 @@
 $meses =array(
     'Enero', 'Febrero', 'Marzo', 'Abril', 
     'Mayo', 'Junio', 'Julio', 'Agosto', 
-    'Septiembre','Octubre', 'Noviembre', 'Diciembre');
-
-
+    'Septiembre','Octubre', 'Noviembre', 'Diciembre'
+);
 
 /* recorrer con el ciclo for
 
