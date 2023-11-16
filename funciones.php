@@ -1,11 +1,20 @@
 <?php
 
 function saludo($nombre){
-    echo 'Saludos,' . $nombre;
-    echo "<br />";
+   return 'Saludo ,' . $nombre;
+    
 }
 
-saludo('Cesar');
-saludo('Alejandro');
-saludo('Manuel');
+echo saludo('Cesar') . '<br />';
+echo saludo('Alejandro') . '<br />';
+echo saludo('Manuel')  . '<br />';
+
+function sumar($numero1, $numero2){
+    $resultado = $numero1 + $numero2;
+    return $resultado;
+    }
+
+    $resultado =  sumar (10,15);
+    
+
 ?>
