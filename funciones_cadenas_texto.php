@@ -1,5 +1,5 @@
 <?php
-$texto = ' Hola  Carlos';
+echo $texto = ' Hola  Carlos';
 
 // echo htmlspecialchars($texto);
  //echo trim($texto);
