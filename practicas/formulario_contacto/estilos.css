@@ -11,12 +11,12 @@ body {
 	font-size: 16px;
 	font-family:"Roboto", Arial, sans-serif, helvetica;
 }
+
 .wrap {
 	width: 90%;
 	max-width: 500px;
 	margin: auto;
 }
-
 
 form {
 	width: 100%;
@@ -42,6 +42,7 @@ form textarea {
 	font-size: 1em;
 	color:#141938;
 }
+
 form input[type="text"]:focus,
 form input[type="email"]:focus,
 form input[type="password"]:focus,
@@ -50,7 +51,6 @@ form textarea:focus{
 	padding: 15px;
 }
 
-
 form textarea {
 	max-width: 100%;
 	min-width: 100%;
@@ -58,12 +58,18 @@ form textarea {
 	min-height: 150px;
 }
 
+form label {
+	color:#E1E9FA;
+	font-family:"Roboto", Arial, sans-serif, helvetica;
+	display: block;
+}
+
 .alert {
 	padding: 1em;
 	color:#fff;
 	border-radius: 2px;
 	margin-bottom: 20px;
-	font-size: 14px
+	font-size: 14px;
 }
 
 .alert.error {
@@ -76,7 +82,7 @@ form textarea {
 	background: #4CAF50;
 }
 
-.btn,
+.boton,
 form input[type="submit"]{
 	padding: 15px;
 	background: #ED572A;

@@ -2,24 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario contacto</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Formulario de contacto</title>
     <link rel="stylesheet" href="estilos.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>    
 </head>
 <body>
-   <div class="wrap">
-    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELFE']); ?>" method="post" >
-    <input type="text" class="form_control" id="nombre" name="nombre" placeholder="Nombre:" value="">
+    <div class="wrap">
+        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
+   
+            <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre:" value="<?php if(!$enviado && isset($nombre)) echo $nombre?>">
+            
+            <input type="text" class="form-control" name="correo" id="correo" placeholder="Correo:" value="<?php if(!$enviado && isset($correo)) echo $correo?>">
 
-    <input type="text" class="form_control" id="correo" name="correo" placeholder="Correo:" value="">
-
-    <textarea name="mensaje" class="form_control" id="mensaje" placeholder="Mensaje"></textarea>
-
-    <?php if (!empty($errores)): ?>
+            <textarea name="mensaje" class="form-control" id="mensaje" placeholder="Mensaje:"><?php if(!$enviado && isset($mensaje)) echo $mensaje?></textarea>
+    
+            <?php if (!empty($errores)): ?>
 				<div class="alert error" role="alert">
 					<?php echo $errores; ?>
 				</div>
@@ -28,10 +25,10 @@
 					<?php echo 'Enviado Correctamente'; ?>
 				</div>
 			<?php endif; ?>
-            
-    <input type="submit" name="submit" class="btn btn-primary" value="Enviar correo">
-</form>
 
-   </div>
+            <input type="submit" name="submit" class="btn btn-primary" value="Enviar Correo">
+        </form>
+    </div>
 </body>
 </html>
+
